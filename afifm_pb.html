@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Afif Murtadho</title>
+    <link rel="stylesheet" href="afifm_pb.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Serif+Text:ital@0;1&family=Kanit:wght@400;700&display=swap');
+    </style>
+</head>
+<body>
+    <script>
+    window.addEventListener('scroll', function() {
+        const header = document.querySelector('header');
+        if (window.scrollY > 50) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+    </script>
+
+    <header>
+        <div class="logo"><img src="IMG/Untitled-1.png" alt="Logo Afif" style="height: 25px;"></div>
+        <nav>
+            <a href="#">Profile</a>
+            <a href="#skills">Skills</a>
+            <a href="#project-sc">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="content">
+            <h1>Halo, saya Afif Murtadho</h1>
+            <h2>Mahasiswa Informatika UTY</h2>
+            <p>
+               Hai, saya <b>Afif Murtadho</b>, seorang mahasiswa Informatika di Universitas Teknologi Yogyakarta yang memiliki semangat tinggi dalam dunia teknologi dan desain.
+               Sebagai individu yang kreatif dan analitis, saya juga memiliki pengalaman dalam UI/UX design, analisis sistem, dan pengembangan software. Mari berkolaborasi!
+            </p>
+            <div class="buttons">
+                <a href="#hire-me" class="btn">Lebih lanjut</a>
+            </div>
+        </div>
+        <div class="image">
+            <div class="box-accent"></div>
+            <div class="box-accent2"></div>
+            <img src="IMG/AFIF M.png" alt="Profile Picture" style="position: relative;">
+        </div>
+    </section>
+    
+    <div class="hire" id="hire-me" style="margin-top: 50px;">
+        <h2 class="skills-title" id="hire-me">Why Hire Me?</h2>
+        <div class="skills-container">
+            <div class="why-box">
+                <img src="IMG/optimis.png" style="height: 90px;"></img>
+                <h4>Optimis</h4>
+                <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 14px;">Saya selalu melihat setiap tantangan sebagai peluang untuk berkembang. Dengan sikap optimis, saya mampu menghadapi situasi sulit dengan pikiran positif dan dengan semangat.</p>
+            </div>
+            <div class="why-box">
+                <img src="IMG/belajar.png" style="height: 90px;"></img>
+                <h4>Suka Belajar Hal Baru</h4>
+                <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 14px;">Saya memiliki rasa ingin tahu yang besar dan selalu antusias untuk mempelajari hal-hal baru, terutama di bidang teknologi, desain, dan pengembangan diri.</p>
+            </div>
+            <div class="why-box">
+                <img src="IMG/sabar.png" style="height: 90px;"></img>
+                <h4>Sabar</h4>
+                <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 14px;">Saya percaya bahwa kesabaran merupakan salah satu kunci untuk menyelesaikan masalah. Dalam menghadapi tekanan, saya berusaha untuk tetap tetap tenang dan tidak terburu-buru dalam mengambil keputusan.</p>
+            </div>
+            <div class="why-box">
+                <img src="IMG/teliti.png" style="height: 90px;"></img>
+                <h4>Teliti</h4>
+                <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 14px;">Saya memiliki perhatian terhadap detail, yang membuat saya mampu menghasilkan pekerjaan yang rapi dan akurat.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="skills" id="skills" style="margin-top: 50px;">
+        <h2 class="skills-title">Skills</h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <img src="IMG/ui.png" style="height: 70px;"></img>
+                <h3>UI/UX Design</h3>
+                <div class="tools">
+                    <div class="icon">
+                        <img class="softw" src="IMG/adobexd.png" alt="">
+                    </div>
+                    <div class="icon">
+                        <img class="softw" src="IMG/figma.png" alt="">
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div class="skill-box">
+                <img src="IMG/graphic-design.png" style="height: 70px;"></img>
+                <h3>Graphic Design</h3>
+                <div class="tools">
+                    <div class="icon">
+                        <img class="softw" src="IMG/PS.png" alt="">
+                    </div>
+                    <div class="icon">
+                        <img class="softw" src="IMG/AI.png" alt="">
+                    </div>
+                    <div class="icon">
+                        <img class="softw" src="IMG/CDR.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <img src="IMG/dev.png" style="height: 70px;"></img>
+                <h3>Pengembangan Software</h3>
+                <div class="tools">
+                    <div class="icon">
+                    <img class="softw" src="IMG/Python.png" alt="">
+                    </div>
+                    <div class="icon">
+                        <img class="softw" src="IMG/php-1-logo-png-transparent.png" alt="" style="margin-left: 0px; height: 40px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="project" id="project-sc">
+        <h2 class="project-title">Project</h2> <br>
+        <div class="project-container">
+            <div class="project-item">
+                <img class="ui" src="IMG/Project-1.png" alt="project-1" style="height: 300px;width: 450px;">
+                <h4>Sistem Inventory</h4>
+                <h2 style="margin-top: -20px;">Kios Plastik "Bu Yani"</h2>
+                <p style="margin-top: -21px;">Aplikasi monitoring stok barang dan pelayanan toko</p>
+            </div>
+            <div class="project-item">
+                <img class="gd" src="IMG/CAMP02-FUTSAL.png" alt="project-2" style="height: 300px;width: 450px;">
+                <h4>Desain Logo</h4>
+                <h2 style="margin-top: -20px;">KAMPOENG 02 FUTSAL TEAM</h2>
+                <p style="margin-top: -21px;">Desain logo tim futsal "Kampoeng 02"</p>
+            </div>
+        </div>
+    </div>
+
+<br><br><br><br><br><br>
+
+    <footer>
+        <div class="footer-container" id="contact">
+            <h2>Contact</h2>
+            <p>
+                For business inquiries, please send an email to 
+                <a href="mailto:afifmurtadho26@gmail.com">afifmurtadho26@gmail.com</a>
+            </p>
+            <div class="social-icons">
+                <a href="https://www.youtube.com/@afifmurtadho1" title="YouTube" class="iconn"><img src="IMG/youtube.png" alt="" style="height: 30px;"></a>
+                <a href="https://www.instagram.com/afifmurtadho_/" title="Instagram" class="iconn"><img src="IMG/instagram.png" alt="" style="height: 30px;"></a>
+                <a href="https://wa.me/+6285727766526" title="WhatsApp" class="iconn"><img src="IMG/whatsapp.png" alt="" style="height: 30px;"></a>
+            </div>
+            <div class="background-shapes">
+                <div class="shape circle"></div>
+                <div class="shape rectangle"></div>
+                <div class="shape lines"></div>
+            </div>
+            <br><br>
+            <div class="copyr">
+                <p>© 2025 - Afif Murtadho</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
